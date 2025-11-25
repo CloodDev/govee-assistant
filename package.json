@@ -1,0 +1,23 @@
+{
+  "name": "govee-assistant",
+  "version": "1.0.0",
+  "description": "Home assistant implementation for govee lightbulbs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CloodDev/govee-assistant.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CloodDev/govee-assistant/issues"
+  },
+  "homepage": "https://github.com/CloodDev/govee-assistant#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "http": "^0.0.1-security"
+  }
+}
