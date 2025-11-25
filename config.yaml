@@ -1,0 +1,11 @@
+name: "Govee Assistant"
+description: "Home assistant implementation for govee lightbulbs"
+version: "1.0.0"
+slug: "govee_assistant"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
