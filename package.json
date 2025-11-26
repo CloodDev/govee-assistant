@@ -18,6 +18,8 @@
   "homepage": "https://github.com/CloodDev/govee-assistant#readme",
   "dependencies": {
     "express": "^5.1.0",
-    "http": "^0.0.1-security"
+    "http": "^0.0.1-security",
+    "js-yaml": "^4.1.1",
+    "mqtt": "^5.14.1"
   }
 }

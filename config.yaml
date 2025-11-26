@@ -9,3 +9,16 @@ arch:
   - armhf
   - armv7
   - i386
+
+# Configuration options
+options:
+  govee_api_key: "your_api_key_here"
+  mqtt_broker: "mqtt://localhost:1883"
+  mqtt_user: "your_mqtt_user"
+  mqtt_pass: "your_mqtt_pass"
+
+schema:
+  govee_api_key: str
+  mqtt_broker: str
+  mqtt_user: str?
+  mqtt_pass: password?

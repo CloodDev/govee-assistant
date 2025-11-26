@@ -1,8 +1,13 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-# Copy data for add-on
-COPY run.sh /
-RUN chmod a+x /run.sh
+# Install Node.js if not in base image
+RUN apk add --no-cache nodejs npm
 
-CMD [ "/run.sh" ]
+# Copy data for add-on
+COPY package*.json ./
+RUN npm install
+
+COPY . .
+
+CMD [ "node", "index.js" ]
